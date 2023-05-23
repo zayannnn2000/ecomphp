@@ -3,6 +3,7 @@
 </div>
 
 <div>
+    <body style="background-color:#d7e5f0;">
 
     <form action="productadd.php" method="post" id="formp">
 
@@ -10,36 +11,43 @@
        <label for="product_title">Product title</label>
           <input class="input input-borders" type="text" name="product_title" placeholder="product_title" id="product_title" required>
     </div>
+    <br>
 
     <div class="form-group">
        <label for="product_cat">Product category</label>
           <input class="input input-borders" type="text" name="product_cat" placeholder="product_category" id="product_cat" required>
     </div>
+    <br>
 
     <div class="form-group">
        <label for="product_brand">Product brand</label>
           <input class="input input-borders" type="text" name="product_brand" placeholder="product_brand" id="product_brand" required>
     </div>
+    <br>
 
     <div class="form-group">
        <label for="product_desc">Product description</label>
           <input class="input input-borders" type="text" name="product_desc" placeholder="product_description" id="product_desc" required>
     </div>
+    <br>
 
     <div class="form-group">
        <label for="product_price">Product price</label>
           <input class="input input-borders" type="text" name="product_price" placeholder="product_price" id="product_price" required>
     </div>
+    <br>
 
     <div class="form-group">
        <label for="product_image">Product_image</label>
           <input class="image" type="file" accept=".png, .jpg, jpeg, .bitmap" name="product_image" placeholder="product_image" id="product_image" required>
     </div>
+    <br>
 
     <div class="form-group">
        <label for="product_keywords">Product keywords</label>
           <input class="input input-borders" type="text" name="product_keywords" placeholder="product_keywords" id="product_keywords" required>
     </div>
+    <br>
 
     <input class="primary-btn btn-block"   type="submit"  Value="Add product">
     </form>
@@ -49,7 +57,7 @@
 
 
 <script>
-    
+
 function getProduct(){
 
 const xhttp = new XMLHttpRequest();
